@@ -1,0 +1,16 @@
+--- Intel Linux Kernel ---
+
+Custom mainline kernel without AMD CPU support and various other improvements
+
+Supported: Fedora, Asus Laptops
+
+Changelog for 4.20.0-rc5-ILK:
+
+- Removed all AMD CPU support
+- Preemptible Kernel --> Low-Latency Desktop
+- Turned off kernel debugging for better performance
+- Added kyber and bfq disk schedulers
+
+
+
+

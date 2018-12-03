@@ -22,13 +22,12 @@
 #include <getopt.h>
 #include <err.h>
 #include <arpa/inet.h>
-#include <openssl/opensslv.h> 
+#include <openssl/opensslv.h>
 #include <openssl/bio.h>
 #include <openssl/evp.h>
 #include <openssl/pem.h>
 #include <openssl/err.h>
-#include <openssl/engine.h> 
-
+#include <openssl/engine.h>
 
 /*
  * Use CMS if we have openssl-1.0.0 or newer available - otherwise we have to
