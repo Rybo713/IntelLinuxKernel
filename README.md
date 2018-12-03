@@ -19,4 +19,6 @@ the problems which may result by upgrading your kernel.
 
 ### Check Wiki for Installation Instructions
 
+## Not guarenteed to work
+
 Ryan Wong 2018
