@@ -17,44 +17,6 @@ Please read the Documentation/process/changes.rst file, as it contains the
 requirements for building and running the kernel, and information about
 the problems which may result by upgrading your kernel.
 
-## Requirements:
-`make`
+### Check Wiki for Installation Instructions
 
-`gcc`
-
-`bison`
-
-`flex`
-
-`libssl-dev`
-
-`libelf-dev` or `libelf-devel` or `elfutils-libelf-devel`
-
-## Installation:
-1. Select a branch other than master
-2. Clone the repo
-
-`git clone https://github.com/Rybo713/IntelLinuxKernel.git`
-
-3. Go into the directory 
-
-`cd ~/IntelLinuxKernel`
-
-4. Rename config file to .config
-
-`mv ~/IntelLinuxKernel/config ~/IntelLinuxKernel/.config`
-
-5. Compile the kernel
-
-`sudo make -j$(nproc --all)` Note: `(nproc -all)` uses all your cpu cores to compile the kernel
-
-6. Compile the rest of the kernel
-
-`sudo make modules_install`
-
-7. Install the kernel into your system
-`sudo make install`
-
-8. Reboot your system and select version with `-ILK` at the end
-
-9. That's it!
+Ryan Wong 2018
