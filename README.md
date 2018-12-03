@@ -17,6 +17,12 @@ Please read the Documentation/process/changes.rst file, as it contains the
 requirements for building and running the kernel, and information about
 the problems which may result by upgrading your kernel.
 
+## Requirements:
+`make`
+`gcc`
+`bison`
+`flex`
+
 ## Installation:
 1. Select a branch other than master
 2. Clone the repo
@@ -25,7 +31,7 @@ the problems which may result by upgrading your kernel.
 
 3. Go into the directory 
 
-`cd /IntelLinuxKernel`
+`cd ~/IntelLinuxKernel`
 
 4. Compile the kernel
 
