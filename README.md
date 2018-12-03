@@ -19,9 +19,14 @@ the problems which may result by upgrading your kernel.
 
 ## Requirements:
 `make`
+
 `gcc`
+
 `bison`
+
 `flex`
+
+`libelf-dev` or `libelf-devel` or `elfutils-libelf-devel`
 
 ## Installation:
 1. Select a branch other than master
@@ -33,17 +38,21 @@ the problems which may result by upgrading your kernel.
 
 `cd ~/IntelLinuxKernel`
 
-4. Compile the kernel
+4. Rename config file to .config
+
+`mv ~/IntelLinuxKernel/config ~/IntelLinuxKernel/.config`
+
+5. Compile the kernel
 
 `sudo make -j$(nproc --all)` Note: `(nproc -all)` uses all your cpu cores to compile the kernel
 
-5. Compile the rest of the kernel
+6. Compile the rest of the kernel
 
 `sudo make modules_install`
 
-6. Install the kernel into your system
+7. Install the kernel into your system
 `sudo make install`
 
-7. Reboot your system and select version with `-ILK` at the end
+8. Reboot your system and select version with `-ILK` at the end
 
-8. That's it!
+9. That's it!
