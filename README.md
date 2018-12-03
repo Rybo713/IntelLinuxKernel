@@ -26,6 +26,8 @@ the problems which may result by upgrading your kernel.
 
 `flex`
 
+`libssl-dev`
+
 `libelf-dev` or `libelf-devel` or `elfutils-libelf-devel`
 
 ## Installation:
